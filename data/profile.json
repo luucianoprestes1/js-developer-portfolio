@@ -35,13 +35,18 @@
   ],
   "portfolio": [
     {
-      "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
-      "url": "https://github.com/RenanJPaula/js-developer-pokedex",
+      "name": "Trilha JS Developer - Pokedex",
+      "url": "https://github.com/luucianoprestes1/js-developer-pokedex",
       "github": true
     },
     {
-      "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
-      "url": "https://github.com/RenanJPaula/js-developer-portfolio",
+      "name": "Criação de uma página de portfólio",
+      "url": "https://github.com/luucianoprestes1/js-developer-portfolio",
+      "github": true
+    },
+    {
+      "name": "Criação de um site para AACC (Atividades Acadêmico-Científico-Culturais)",
+      "url": "https://github.com/luucianoprestes1/aacc",
       "github": true
     }
   ],
