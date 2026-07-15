@@ -1,4 +1,3 @@
-
 function updateProfileInfo(profileData) {
     const photo = document.getElementById('profile.photo')
     photo.src = profileData.photo
@@ -20,25 +19,30 @@ function updateProfileInfo(profileData) {
     const email = document.getElementById('profile.email')
     email.innerText = profileData.email
     email.href = `mailto:${profileData.email}`
+
 }
 
 function updateSoftSkills(profileData) {
     const softSkills = document.getElementById('profile.skills.softSkills')
+
     softSkills.innerHTML = profileData.skills.softSkills.map(skill => `<li>${skill}</li>`).join('')
 }
 
 function updateHardSkills(profileData) {
     const hardSkills = document.getElementById('profile.skills.hardSkills')
+
     hardSkills.innerHTML = profileData.skills.hardSkills.map(skill => `<li><img src="${skill.logo}" alt="${skill.name}" title="${skill.name}"></li>`).join('')
 }
 
 function updateLanguages(profileData) {
     const languages = document.getElementById('profile.languages')
+
     languages.innerHTML = profileData.languages.map(language => `<li>${language}</li>`).join('')
 }
 
 function updatePortfolio(profileData) {
     const portfolio = document.getElementById('profile.portfolio')
+
     portfolio.innerHTML = profileData.portfolio.map(project => {
         return `
             <li>
@@ -51,6 +55,7 @@ function updatePortfolio(profileData) {
 
 function updateProfessionalExperience(profileData) {
     const professionalExperience = document.getElementById('profile.professionalExperience')
+
     professionalExperience.innerHTML = profileData.professionalExperience.map(experience => {
         return `
             <li>
